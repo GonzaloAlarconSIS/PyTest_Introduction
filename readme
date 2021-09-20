@@ -1,0 +1,13 @@
+preconditions
+have python installed
+
+Commands:
+    - python --version
+    - pip install pytest
+    - pytest    (to execute all the test that are contained in the folder) '.' = test passed
+    - pytest -v     (more specifically results)
+    - pytest -m nameOfMark (execute all test that are using this mark)
+
+Recommendations:
+    - pytest command recognize all the functions that contains "test" keyword at the beginning of the func name
+    - take care with the names of the files, function and classes do you create
